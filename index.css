@@ -1,0 +1,50 @@
+table,
+tr,
+td,
+th {
+    border: 1px solid black;
+   /* border-radius: 15%; */
+}
+
+table {
+    /*Alapértelmezett beállítása */
+    /*border-collapse : separate; */
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 900px;
+    margin-top: ;
+}
+
+td, th {
+   padding: 16px;
+}
+
+tr {
+    background-color: gainsboro;
+}
+
+tr:nth-child(1){
+    background-color: red;
+}
+
+tr:nth-child(6){
+    background-color: coral;
+}
+
+tr:nth-child(even){
+    background-color: aqua;
+}
+
+tr:nth-child(odd){
+    background-color: green;
+}
+
+th {
+background-color: yellow;
+}
+
+caption {
+    padding-bottom: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
